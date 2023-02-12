@@ -66,10 +66,10 @@ jobs:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
-          npm run api:Install
+          npm run api:install
           npm run api:build
           npm run api:deploy
-          npm run frontend:Install
+          npm run frontend:install
           npm run frontend:build
           npm run frontend:deploy            
 workflows:
